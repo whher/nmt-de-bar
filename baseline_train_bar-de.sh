@@ -1,3 +1,6 @@
+# This is the bash commands for training the baseline model
+# Translation direction is Bavarian --> German
+
 # Lines 2 and 3 have to be executed upon every login
 export PYTHONPATH=$(pwd)/subword-nmt:$PYTHONPATH
 pip install torch==1.11.0
